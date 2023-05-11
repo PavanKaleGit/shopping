@@ -1,0 +1,21 @@
+.myproduct {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(205, 210, 212);
+}
+.card-text{
+  height: 70px;
+  overflow: hidden;
+}
+.box{
+  border: 5px solid rgb(38, 44, 43);
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.card-title{
+  color: rgb(44, 45, 46);
+}
+.img-box{
+  margin-top: 5px;
+}

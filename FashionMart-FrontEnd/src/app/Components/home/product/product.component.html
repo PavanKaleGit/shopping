@@ -1,0 +1,32 @@
+
+                 <div class="box shadow" style="max-height: 360px;" >
+                        <h4 class="card-title">{{product.productname}}</h4>
+                    <div class="option_container">
+                       <div class="options">
+                          <a (click)="ViewProductDetail(product.productid)" class="option1"> View Product
+                        </a>
+                          <a class="option2" style="cursor: pointer;" (click)="addToCart()"> Add to cart  </a>
+                       </div>
+                    </div>
+                    <div class="img-box">
+                        <img src="data:image/png;base64,{{product.productimage}}" class="img-responsive"  alt="Image">
+                    </div>
+                    <div class="detail-box">
+                       <h5>
+                        {{product.category}}
+
+                       </h5>
+                       <div>
+
+                          <h6>
+                            <s style="color: rgba(255, 0, 0, 0.397)"> ₹{{ product.price * 10/9 | number:'1.0-0' }}</s> </h6> 
+                             <h6>
+                                ₹ {{product.price}}  </h6>
+                              </div>
+                    </div>
+                    {{product.description}}
+                 </div>
+                
+           <div class="btn-box"></div>
+         
+<br>

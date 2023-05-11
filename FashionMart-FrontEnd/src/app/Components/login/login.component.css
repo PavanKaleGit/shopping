@@ -1,0 +1,23 @@
+
+.row{
+    margin-top: 15px;
+}
+.card[_ngcontent-c1] {
+    height: 355px;
+    border: 6px solid rgb(40, 37, 37);
+    border-radius: 25px;
+}
+.card-body{
+    background-color: rgb(234, 230, 223);
+    width: 700px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 150px;
+}
+.btn{
+    background-color: rgb(225, 221, 215);
+    color: rgb(26, 24, 25);
+    width: 150px;
+    margin-top: 20px;
+    border: 1px solid rgb(78, 74, 74);
+}
